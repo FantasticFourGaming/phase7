@@ -76,17 +76,6 @@
 </nav>
 <!--Navbar: ends-->
 
-<!-- Alert Popup-->
-<div class="alert alert-success" role="alert">
-        <h4 class="alert-heading">What Type of Gamer are You?</h4>
-        <p>Consols, PC, mobile, board; Where do you begin?</p>
-        <hr>
-        <p class="mb-0">Take our short quiz to point you in the right direction to find the best games for you!!</p>
-        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
-      </div>
-<!-- Alert Popup-->
 <!--Bootstrap comp: Carousel: starts-->
 <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
@@ -156,6 +145,169 @@
 </div>
 <!--Carousel: ends-->
 <hr> <!--Line break divider-->
+
+<!-- SNButton trigger modal start -->
+<button type="button" class="btn btn-primary btn-lg btn-block btn-info" data-toggle="modal" data-target="#modal1">
+  Gaming Quiz; Its as easy as 1,2,3!!!
+</button>
+
+<!-- SNModal1 -->
+<div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="modal1Title" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal1Title">Question 1</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Which type of game play does your gamer prefer? 
+        <div>       
+           <button type="button" class="btn btn-primary"data-toggle="modal" data-target="#modal2A"data-dismiss="modal">In Person with others </button>
+        </div>
+        <div><p></p></div>
+                <button type="button" class="btn btn-primary"data-toggle="modal" data-target="#modal2B"data-dismiss="modal">Alone or online with others</button>
+          </div>
+          <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 33%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">1...</div>
+            </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- SNPModal2A -->
+<div class="modal fade" id="modal2A" tabindex="-1" role="dialog" aria-labelledby="modal2ATitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title2A" id="modal2ATitle">Question 2</h5>
+        <button type="button" class="close" data-dismiss="modal2A" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          Does the game include game piece that can be used to play (as a game piece or trade)? 
+          <div>       
+             <button type="button" class="btn btn-primary"data-toggle="modal" data-target="#modal3A"data-dismiss="modal">Yes </button>
+          </div>
+          <div><p></p></div>
+             <button type="button" class="btn btn-primary"data-toggle="modal" data-target="#modal3B"data-dismiss="modal">No</button>
+            </div>
+            <div class="progress">
+                <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 66%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">...2...</div>
+              </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- SNModal2B -->
+<div class="modal fade" id="modal2B" tabindex="-1" role="dialog" aria-labelledby="modal2BTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modal2BTitle">Question 2</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          Where does your gamer prefer to play their games? 
+          <div>       
+             <button type="button" class="btn btn-primary"data-toggle="modal" data-target="#modal3B"data-dismiss="modal">On the go (while traveling or whenever they can fit it in) </button>
+          </div>
+          <div><p></p></div>
+              <button type="button" class="btn btn-primary"data-toggle="modal" data-target="#modal3C"data-dismiss="modal">At home on a computer or television</button>
+            </div>
+          <div class="progress">
+              <div class="progress-bar progress-bar-striped progress-bar-animated bg-success" role="progressbar" style="width: 66%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">...2...</div>
+            </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- SNModal3A -->
+<div class="modal fade" id="modal3A" tabindex="-1" role="dialog" aria-labelledby="modal3ATitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal3ATitle">Might we suggest...</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            We recommend checking out our top board game suggesions!!
+            <div>    
+              Insert link 1 here   
+              </div>
+              <div class="progress">
+                  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">...3!!</div>
+                </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  <!-- SNModal3B -->
+<div class="modal fade" id="modal3B" tabindex="-1" role="dialog" aria-labelledby="modal3BTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal3BTitle">Might we suggest...</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            We recommend checking out our top Mobile game suggesions for phone and handheld devices!! 
+            <div>    
+              Insert link 2 here   
+              </div>
+              <div class="progress">
+                  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">...3!!</div>
+                </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+ <!-- SNModal3C -->
+ <div class="modal fade" id="modal3C" tabindex="-1" role="dialog" aria-labelledby="modal3CTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modal3CTitle">Suggestion3</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            We recommend checking out our top PC and Console game suggestions?  
+            <div>    
+              Insert link 3 here   
+              </div>
+              <div class="progress">
+                  <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width: 100%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">...3!!</div>
+                </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <-- SNModal Ends -->
 
 <!--Bootsrap CDN Bottom section-->
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
