@@ -146,7 +146,16 @@
 	<li><a href="#">Mobile Games</a></li>
 	<li><a href="#">Board Games</a></li>
 	<li><a href="https://s3-us-west-2.amazonaws.com/cis3110-a4/acePhase4CS_About.html">About Us</a></li>
-	<li><a href="#">Contact</a></li>
+	<li><a href="#">Contact</a></li>\
+	  <li class="nav-item">
+        <a class="nav-link" href="https://s3-us-west-2.amazonaws.com/bucket3110fall18/Phase5/P5_Contact.html">PC/Console Games</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="https://s3-us-west-2.amazonaws.com/bucket3110fall18/Phase5/P5_Contact.html">Mobile Games</a>
+      </li>
+	  <li class="nav-item">
+        <a class="nav-link" href="https://s3-us-west-2.amazonaws.com/bucket3110fall18/Phase5/P5_Contact.html">Classic Board Games</a>
+      </li>
 </ul>	
 	
 </html>
