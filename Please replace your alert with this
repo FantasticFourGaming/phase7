@@ -1,5 +1,5 @@
   <!-- Alet start -->
-  <div class="alert alert-success" role="alert">
+  <div style="text-align:center;" class="alert alert-success" role="alert">
         <h4 class="alert-heading">What Type of Gamer are You?</h4>
         <p>Consols, PC, mobile, board; Where do you begin?</p>
         <hr>
